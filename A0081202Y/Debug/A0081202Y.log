@@ -1,0 +1,44 @@
+﻿Build started 9/6/2012 10:07:20 AM.
+     1>Project "C:\Users\Raaj\Desktop\A0081202Y (new)\A0081202Y\A0081202Y.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\A0081202Y.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Functionality.cpp login.cpp main.cpp PerishableProduct.cpp Product.cpp UserInterface.cpp
+         UserInterface.cpp
+         Product.cpp
+         PerishableProduct.cpp
+     1>c:\users\raaj\desktop\a0081202y (new)\a0081202y\perishableproduct.cpp(123): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\time.inl(112) : see declaration of 'localtime'
+         main.cpp
+     1>c:\users\raaj\desktop\a0081202y (new)\a0081202y\main.cpp(101): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\conio.h(128) : see declaration of 'getch'
+     1>c:\users\raaj\desktop\a0081202y (new)\a0081202y\main.cpp(115): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\conio.h(128) : see declaration of 'getch'
+         login.cpp
+         Functionality.cpp
+         Generating Code...
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\A0081202Y.exe.embed.manifest.res" Debug\A0081202Y_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Raaj\Desktop\A0081202Y (new)\Debug\A0081202Y.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\A0081202Y.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Raaj\Desktop\A0081202Y (new)\Debug\A0081202Y.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Raaj\Desktop\A0081202Y (new)\Debug\A0081202Y.lib" /MACHINE:X86 Debug\A0081202Y.exe.embed.manifest.res
+         Debug\Functionality.obj
+         Debug\login.obj
+         Debug\main.obj
+         Debug\PerishableProduct.obj
+         Debug\Product.obj
+         Debug\UserInterface.obj
+         LINK : C:\Users\Raaj\Desktop\A0081202Y (new)\Debug\A0081202Y.exe not found or not built by the last incremental link; performing full link
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\A0081202Y.exe.embed.manifest" /manifest Debug\A0081202Y.exe.intermediate.manifest
+         All outputs are up-to-date.
+       LinkEmbedManifest:
+         All outputs are up-to-date.
+         A0081202Y.vcxproj -> C:\Users\Raaj\Desktop\A0081202Y (new)\Debug\A0081202Y.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\A0081202Y.unsuccessfulbuild".
+         Touching "Debug\A0081202Y.lastbuildstate".
+     1>Done Building Project "C:\Users\Raaj\Desktop\A0081202Y (new)\A0081202Y\A0081202Y.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.37
